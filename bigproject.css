@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.header {
+    height: 60px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+i {
+    color: white;
+}
+
+#icons {
+    display: flex;
+}
+
+.companies {
+    transform: scale(1.5);
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#navtags {
+    display: flex;
+    margin-left: 150px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+button {
+    background-color: red;
+    border-radius: 5px;
+    border: 2px solid red;
+    text-decoration: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: lightred;
+}
+
+#searchbar {
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+#searchicon {
+    margin-top: 20px;
+    margin-left: 6px;
+    height: 24px;
+    width: 24px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#header2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 60px;
+    height: 240px;
+    width: 100%;
+    /*background-color: aqua;*/
+}
+
+#twoimages {
+    display: flex;
+}
+
+#english {
+    margin-right: 155px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#hindi {
+    margin-left: 155px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#navbar2 {
+    position: absolute;
+    top: 300px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    background-color: red;
+}
+
+.college_details {
+    margin: 10px 6px 10px 6px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    border: 2px solid red;
+}
+
+main {
+    position: absolute;
+    top: 360px;
+}
+
+#scholarship {
+    position: absolute;
+    top: 325px;
+    display: flex;
+    height: 25px;
+    width: 800px;
+    background-color: rgb(55, 55, 129);
+    color: white;
+    padding: 20px;
+    margin-left: 16%;
+    border-radius: 8px;
+    justify-content: space-evenly;
+}
+
+#floatingtext {
+    height: 60px;
+    width: 100%;
+    background-color: #f5f5f5;
+    color: red;
+    margin-top: 10px;
+}
+
+marquee {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#container {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxes {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+}
+
+.boxes:hover {
+    background-color: red;
+    color: white;
+}
+
+#principal {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: #f8faff;
+    align-items: center;
+}
+
+#principal_photo {
+    margin-left: 40px;
+}
+
+#message {
+    width: 100%;
+    font-size: 15px;
+    color: black;
+    margin-left: 40px;
+}
+
+#container2 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.minibox {
+    height: 400px;
+    width: 350px;
+}
+
+.headings {
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footings {
+    height: 50px;
+    width: 100%;
+}
+
+.chutku {
+    margin-left: 30%;
+}
+
+#reviews {
+    height: 100px;
+    width: 100%;
+    background-color: #F8FaFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#commentbox {
+    width: 100%;
+    height: 500px;
+    background-color: #F8FaFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.comments {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+#footer {
+    width: 100%;
+    height: 500px;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foottabs {
+    height: 400px;
+    width: 350px;
+    color: white;
+}
+
+#lastfooter {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+#hello:hover {
+    color: red;
+}
+
+option {
+    background-color: white;
+    color: black;
+    font-size: large;
+}
+
+select:hover {
+    color: blue;
+}
+
+#baliye:hover {
+    color: red;
+}
