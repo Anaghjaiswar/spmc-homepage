@@ -1,0 +1,1 @@
+This is the basic homepage of shyama Prasad Mukherjee College for women(spmc)
